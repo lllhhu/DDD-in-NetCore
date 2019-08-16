@@ -1,5 +1,5 @@
 # DDD-in-NetCore
-领域驱动设计在.NetCore中的实现
+领域驱动设计在Asp.NetCore中的实现
 
 - 该Simple Example是DDD在的Asp.NetCore版本中的实现，实现的业务场景是发布商品，购买商品流程。依据领域驱动战略设计划分了Bizoffer和Order上下文。本示例项目只是做DDD演示，不是完全符合真实业务规则，请勿用于生产环境。
 
