@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.1.0" />
+    <PackageReference Include="Polly" Version="7.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MyCat" Version="1.1.0-prerelease-10027" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameId.Domain\GameId.Domain.csproj" />
+    <ProjectReference Include="..\GameId.Service\GameId.Service.csproj" />
+  </ItemGroup>
+
+</Project>
